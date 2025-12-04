@@ -1,6 +1,6 @@
 # AI 기반 감성 반응형 무드등 & AI 기반 이미지-음악 추천
 
-**엣지 AI 기반으로 이미지 한 장에 담긴 감성을 분석하여, 그에 맞는 음악과 빛으로 공간을 채우는 Jetson Orin Nano 기반 AIoT 시스템입니다.**
+**"이미지 한 장에 담긴 감성을 분석하여, 그에 맞는 음악과 빛으로 공간을 채우는 엣지 AI 기반의 ‘감성 반응형 AI 무드등’ 시스템”**
 
 ![Project Demo GIF](assets/demo.gif)
 
@@ -8,7 +8,11 @@
 
 ## 프로젝트 소개 (About The Project)
 
-(Notion의 프로젝트 개요 내용을 1~2 문단으로 요약하여 작성합니다.)
+**적용 AI 모델**
+
+- CLIP (Contrastive Language-Image Pre-training) - 이미지 감정 분류기 모델 훈련: EmoSet-118K 데이터셋 사용
+- BLIP (Bootstrapping Language-Image Pre-training) - 이미지 캡셔닝 모델
+- CLAP (Contrastive Language-Audio Pre-training) - 감정 + 캡셔닝 텍스트로 음악 매칭 모델
 
 ### 기술 스택 (Tech Stack)
 
