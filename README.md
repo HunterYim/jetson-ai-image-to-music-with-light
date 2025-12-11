@@ -51,8 +51,8 @@
 
 1.  **리포지토리 복제:**
     ```bash
-    git clone https://github.com/HunterYim/jetson-ai-image-to-light-music.git
-    cd jetson-ai-image-to-light-music
+    git clone https://github.com/HunterYim/jetson-ai-image-to-music-with-light.git
+    cd jetson-ai-image-to-music-with-light
     ```
 2.  **아두이노 펌웨어 업로드:**
     `/arduino/mood_light_firmware/` 폴더의 `.ino` 파일을 Arduino IDE를 통해 업로드합니다.
@@ -66,7 +66,7 @@
 4.  **스크립트 실행:**
     *   `jetson/start_docker.sh` 파일의 이미지 이름과 볼륨 마운트 경로를 자신의 환경에 맞게 수정한 뒤 실행합니다.
       ```bash
-      cd jetson-containers
+      cd jetson
       ./start_docker.sh
       ```
     *   컨테이너 내부에서 필요한 라이브러리를 설치하고, 메인 스크립트를 실행합니다.
@@ -74,14 +74,14 @@
       # Inside the container
       pip install pyserial pyserial
       pip install pyserial pygame
-      python3 test_with_arduino.py
+      python3 main.py
       ```
 
 ---
 
 ## 챌린지 및 해결 과정 (Challenges & Solutions)
 
-이 프로젝트를 진행하며 마주했던 주요 기술적 난관과 해결 과정입니다. 더 자세한 내용은 **[Notion 포트폴리오](여기에_Notion_페이지_링크_삽입)**에서 확인하실 수 있습니다.
+이 프로젝트를 진행하며 마주했던 주요 기술적 난관과 해결 과정입니다. 더 자세한 내용은 **https://www.notion.so/AI-AI-2c25777a0a2d81f68e2dcc722cb16ee6?source=copy_link#2c25777a0a2d81a39b76ff4d46c841d1**에서 확인하실 수 있습니다.
 
 *   **Challenge #1: 개발 환경 구축 문제**
     *   **Solution:** Docker 컨테이너를 도입하고, 빌드 실패 문제를 `docker pull` 전략으로 전환하여 안정적인 개발 환경을 구축
