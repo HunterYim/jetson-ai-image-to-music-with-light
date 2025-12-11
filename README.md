@@ -81,7 +81,7 @@
 
 ## 챌린지 및 해결 과정 (Challenges & Solutions)
 
-이 프로젝트를 진행하며 마주했던 주요 기술적 난관과 해결 과정입니다. 더 자세한 내용은 **https://www.notion.so/AI-AI-2c25777a0a2d81f68e2dcc722cb16ee6?source=copy_link#2c25777a0a2d81a39b76ff4d46c841d1**에서 확인하실 수 있습니다.
+이 프로젝트를 진행하며 마주했던 주요 기술적 난관과 해결 과정입니다. 더 자세한 내용은 **[Notion 포트폴리오]([여기에_Notion_페이지_링크_삽입](https://www.notion.so/AI-AI-2c25777a0a2d81f68e2dcc722cb16ee6?source=copy_link#2c25777a0a2d81a39b76ff4d46c841d1))**에서 확인하실 수 있습니다.
 
 *   **Challenge #1: 개발 환경 구축 문제**
     *   **Solution:** Docker 컨테이너를 도입하고, 빌드 실패 문제를 `docker pull` 전략으로 전환하여 안정적인 개발 환경을 구축
