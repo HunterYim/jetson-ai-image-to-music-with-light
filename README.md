@@ -16,8 +16,8 @@
 
 ### 기술 스택 (Tech Stack)
 
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 ![NVIDIA](https://img.shields.io/badge/NVIDIA-Jetson-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
 ![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white)
@@ -30,10 +30,10 @@
 ![System Architecture](assets/architecture.png)
 
 ### AI 모델 파이프라인
-(AI 모델 파이프라인 다이어그램을 여기에 추가할 수 있습니다.)
+![AI Model Pipeline](assets/ai_model_pipeline.png)
 
-** trained on [another repository](여기에_모델_훈련_리포지토리_링크_삽입).**
-> **중요:** "훈련된 모델은 별도의 리포지토리에서 관리됩니다" 라는 링크를 추가하여, 이 프로젝트가 "블랙박스" 모델을 그냥 가져다 쓴 것이 아니라, 모델 훈련 과정까지 모두 직접 수행했음을 명확하게 어필합니다.
+** trained on [another repository](assets/clip_emotion_classifier.pt).**
+> **중요:** "모델의 훈련은 별도의 리포지토리에서 관리됩니다"
 
 ---
 
