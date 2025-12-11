@@ -32,8 +32,7 @@
 ### AI 모델 파이프라인
 ![AI Model Pipeline](assets/ai_model_pipeline.png)
 
-** trained on [another repository](assets/clip_emotion_classifier.pt).**
-> **중요:** "모델의 훈련은 별도의 리포지토리에서 관리됩니다"
+> **참고:** 본 프로젝트에서 사용된 커스텀 CLIP 감정 분류 모델의 훈련 과정은 **[별도의 리포지토리](여기에_모델_훈련_리포지토리_링크)**에서 확인하실 수 있습니다.
 
 ---
 
