@@ -10,9 +10,9 @@
 
 **적용 AI 모델**
 
-- CLIP (Contrastive Language-Image Pre-training) - 이미지 감정 분류기 모델 훈련: EmoSet-118K 데이터셋 사용
+- CLIP (Contrastive Language-Image Pre-training) - 이미지 감정 분류기 모델로 튜닝 및 훈련 진행 (EmoSet-118K 데이터셋 사용)
 - BLIP (Bootstrapping Language-Image Pre-training) - 이미지 캡셔닝 모델
-- CLAP (Contrastive Language-Audio Pre-training) - 감정 + 캡셔닝 텍스트로 음악 매칭 모델
+- CLAP (Contrastive Language-Audio Pre-training) - 감정 + 캡셔닝 텍스트로 음악 매칭 모델 (오디오 전체를 대상으로 하지 않고, ‘음악’을 대상으로 튜닝 진행)
 
 ### 기술 스택 (Tech Stack)
 
