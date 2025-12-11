@@ -42,9 +42,9 @@
 
 ### 사전 준비 (Prerequisites)
 
-*   NVIDIA Jetson Orin Nano (JetPack 6.0 권장)
-*   Arduino Uno & NeoPixel LED 스트립
-*   필요한 모델 파일 및 데이터셋 (`clip_emotion_classifier.pt` 등)
+*   **하드웨어:** NVIDIA Jetson Orin Nano, Arduino Uno, NeoPixel LED 스트립
+*   **소프트웨어:** Jetson-containers, Docker
+*   **데이터 및 모델:** `clip_emotion_classifier.pt` 등 AI 모델 파일과 `jamendo_...` 음악 데이터셋 및 임베딩 파일 등을 외부 SSD에 준비해야 합니다.
 
 ### 설치 및 실행 (Installation & Execution)
 
@@ -65,15 +65,16 @@
 4.  **스크립트 실행:**
     *   `jetson/start_docker.sh` 파일의 이미지 이름과 볼륨 마운트 경로를 자신의 환경에 맞게 수정한 뒤 실행합니다.
       ```bash
-      cd jetson
+      # (In ~/jetson-containers folder)
       ./start_docker.sh
       ```
     *   컨테이너 내부에서 필요한 라이브러리를 설치하고, 메인 스크립트를 실행합니다.
       ```bash
-      # Inside the container
+      # (Inside the container)
       pip install pyserial pyserial
       pip install pyserial pygame
-      python3 main.py
+      cd /mnt/data
+      python3 /path/to/your/cloned/repo/jetson/main.py 
       ```
 
 ---
