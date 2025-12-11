@@ -26,7 +26,7 @@
 
 ## 아키텍처 (Architecture)
 
-### 전체 시스템 구성도
+### 전체 시스템 흐름도
 ![System Architecture](assets/architecture.png)
 
 ### AI 모델 파이프라인
