@@ -68,6 +68,8 @@
       # (In ~/jetson-containers folder)
       ./start_docker.sh
       ```
+      > **참고:** start_docker.sh 파일 내부의 HOST_DATA_PATH와 ARDUINO_DEVICE 경로를 자신의 환경에 맞게 수정해야 합니다.
+
     *   컨테이너 내부에서 필요한 라이브러리를 설치하고, 메인 스크립트를 실행합니다.
       ```bash
       # (Inside the container)
