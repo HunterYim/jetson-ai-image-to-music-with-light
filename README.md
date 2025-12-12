@@ -4,7 +4,7 @@
 
 ![Project Demo GIF](assets/demo.gif)
 
-> **참고:** 자세한 포트폴리오 정보는 **[Notion 링크](https://www.notion.so/AI-AI-2c25777a0a2d81f68e2dcc722cb16ee6)**에서 확인하실 수 있습니다.
+> **참고:** 자세한 포트폴리오 정보는 [Notion 링크](https://www.notion.so/AI-AI-2c25777a0a2d81f68e2dcc722cb16ee6)에서 확인하실 수 있습니다.
 
 ---
 
@@ -34,7 +34,7 @@
 ### AI 모델 파이프라인
 ![AI Model Pipeline](assets/ai_model_pipeline.png)
 
-> **참고:** 본 프로젝트에서 사용된 커스텀 CLIP 감정 분류 모델의 훈련 과정은 **[별도의 리포지토리](여기에_모델_훈련_리포지토리_링크)**에서 확인하실 수 있습니다. (리포지토리 정리 중...)
+> **참고:** 본 프로젝트에서 사용된 커스텀 CLIP 감정 분류 모델의 훈련 과정은 [별도의 리포지토리](여기에_모델_훈련_리포지토리_링크)에서 확인하실 수 있습니다. (리포지토리 정리 중...)
 
 ---
 
@@ -85,7 +85,7 @@
 
 ## 챌린지 및 해결 과정 (Challenges & Solutions)
 
-이 프로젝트를 진행하며 마주했던 주요 기술적 난관과 해결 과정입니다. 더 자세한 내용은 **[Notion 포트폴리오](https://www.notion.so/AI-AI-2c25777a0a2d81f68e2dcc722cb16ee6?source=copy_link#2c25777a0a2d81a39b76ff4d46c841d1)**에서 확인하실 수 있습니다.
+이 프로젝트를 진행하며 마주했던 주요 기술적 난관과 해결 과정입니다. 더 자세한 내용은 상단의 Notion 링크에서 확인하실 수 있습니다.
 
 *   **Challenge #1: 개발 환경 구축 문제**
     *   **Solution:** Docker 컨테이너를 도입하고, 빌드 실패 문제를 `docker pull` 전략으로 전환하여 안정적인 개발 환경을 구축
