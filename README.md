@@ -4,6 +4,8 @@
 
 ![Project Demo GIF](assets/demo.gif)
 
+> **참고:** 자세한 포트폴리오 정보는 **[Notion 링크](https://www.notion.so/AI-AI-2c25777a0a2d81f68e2dcc722cb16ee6)**에서 확인하실 수 있습니다.
+
 ---
 
 ## 프로젝트 소개 (About The Project)
