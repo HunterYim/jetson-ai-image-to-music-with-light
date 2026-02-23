@@ -34,7 +34,7 @@
 ### AI 모델 파이프라인
 ![AI Model Pipeline](assets/ai_model_pipeline.png)
 
-> **참고:** 본 프로젝트에서 사용된 커스텀 CLIP 감정 분류 모델의 훈련 과정은 [별도의 리포지토리](https://github.com/HunterYim/multimodal_image-based_music_recommendation_system)에서 확인하실 수 있습니다.
+> **참고:** 본 프로젝트에서 사용된 커스텀 CLIP 감정 분류 모델의 훈련 과정은 [별도의 리포지토리](https://github.com/HunterYim/multimodal_image-based_music_recommendation_system/blob/main/notebooks/0_train_emotion_classifier.ipynb)에서 확인하실 수 있습니다.
 
 ---
 
